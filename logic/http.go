@@ -12,6 +12,8 @@ import (
 	log "github.com/thinkboy/log4go"
 )
 
+var CORSAddr="*"
+
 func InitHTTP() (err error) {
 	// http listen
 	var network, addr string
